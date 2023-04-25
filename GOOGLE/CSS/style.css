@@ -5,11 +5,13 @@ nav ul {
 	display: flex;
 	list-style: none;
 	font-weight: bold;
-	font-size: 20px;
-	margin-left: 60%;
+	font-size: 15px;
+	padding: 0px 4px 0px 0px;
+	margin-left: 65%;
+
+	/* margin-left: 65%;
 	margin-right: 15px;
-}
-.grille {
+	margin-top: 10px; */
 }
 
 nav ul a :hover {
@@ -17,18 +19,22 @@ nav ul a :hover {
 }
 
 .connexion {
-	padding: 7px;
+	padding: 9px 23px;
 	color: white;
-	background-color: rgb(10, 111, 242);
+	background-color: #8ab4f8;
 	font-size: 20px;
-	border-radius: 10px;
+	margin: 0px 8px;
+	border: none;
 }
-.connexion:hover {
-	color: rgb(42, 193, 12);
-}
+
 .corps {
 	font-weight: bold;
 	text-align: center;
+	border: none;
+}
+.corps:hover{
+	cursor: pointer;
+	background-color: rgb(246, 246, 246);
 }
 
 /* le corps de la page */
@@ -42,10 +48,10 @@ main {
 }
 
 img {
-	width: 400px;
+	width: 300px;
 	text-align: center;
-	margin-left: 37%;
-	margin-top: 5%;
+	margin-left: 40%;
+	margin-top: 10px;
 }
 input {
 	border: none;
@@ -53,7 +59,7 @@ input {
 	border-radius: 40px;
 	font-size: 20px;
 	height: 50px;
-	width: 300px;
+	width: 50%;
 	padding: 12px;
 	margin-left: 40px;
 }
@@ -68,12 +74,23 @@ input {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
-.recherche:hover{
-	background-color: #F8F9FA;
+.recherche:hover {
+	background-color: #f8f9fa;
 }
 .libe {
+	position: relative;
+	color: black;
 	list-style: none;
 	text-align: center;
+	margin-top: 60px;
+}
+.chance {
+	padding: 7px;
+	font-size: 15px;
+	border-radius: 4px;
+	background-color: rgb(246, 246, 246);
+	text-decoration: none;
+	margin-right: 10px;
 }
 a {
 	text-decoration: none;
@@ -82,7 +99,7 @@ a {
 /* footer */
 
 footer {
-	margin-top: 60px;
+	margin-top: 18%;
 	background-color: #aab0b5;
 	color: rgb(252, 247, 247);
 }
@@ -90,10 +107,11 @@ footer {
 .gps {
 	margin-left: 40px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 15px;
 	border: none;
 	padding-top: 1px;
 	color: black;
+	background-color: red;
 }
 .footer {
 	padding: 12px;
@@ -109,11 +127,29 @@ ul li {
 }
 a {
 	color: black;
-	padding: 12px;
+	padding: 15px;
+	margin-top: 100px;
 }
 .pied-de-page {
 	margin-left: -25px;
 }
 .footer-drote {
 	margin-right: 15px;
+}
+.icon {
+	position: absolute;
+	margin-left: 360px;
+	margin-top: 2px;
+}
+
+.camera {
+	position: relative;
+	margin-left: 48%;
+	margin-top: -44px;
+	font-size: 30px;
+}
+.micro {
+	position: relative;
+	margin-left: 43%;
+	margin-top: -56px;
 }
