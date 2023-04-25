@@ -63,9 +63,13 @@ input {
 .recherche {
 	padding: 7px;
 	font-size: 15px;
-	background-color: antiquewhite;
+	border-radius: 4px;
+	background-color: rgb(246, 246, 246);
 	color: rgb(255, 255, 255);
 	text-decoration: none;
+}
+.recherche:hover{
+	background-color: #F8F9FA;
 }
 .libe {
 	list-style: none;
@@ -79,7 +83,7 @@ a {
 
 footer {
 	margin-top: 60px;
-	background-color: antiquewhite;
+	background-color: #aab0b5;
 	color: rgb(252, 247, 247);
 }
 
