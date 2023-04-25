@@ -6,8 +6,8 @@ nav ul {
 	list-style: none;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 70%;
-	margin-right: 20px;
+	margin-left: 60%;
+	margin-right: 15px;
 }
 .grille {
 }
@@ -45,7 +45,7 @@ img {
 	width: 400px;
 	text-align: center;
 	margin-left: 37%;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 input {
 	border: none;
